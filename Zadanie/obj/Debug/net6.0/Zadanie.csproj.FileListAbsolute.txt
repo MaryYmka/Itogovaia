@@ -1,0 +1,15 @@
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\bin\Debug\net6.0\Zadanie.exe
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\bin\Debug\net6.0\Zadanie.deps.json
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\bin\Debug\net6.0\Zadanie.runtimeconfig.json
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\bin\Debug\net6.0\Zadanie.dll
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\bin\Debug\net6.0\Zadanie.pdb
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.csproj.AssemblyReference.cache
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.AssemblyInfoInputs.cache
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.AssemblyInfo.cs
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.dll
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\refint\Zadanie.dll
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.pdb
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\Zadanie.genruntimeconfig.cache
+C:\Users\Mary\Desktop\учёба\Введение в программирование\Itogovaia\Zadanie\obj\Debug\net6.0\ref\Zadanie.dll
