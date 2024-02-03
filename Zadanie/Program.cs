@@ -36,7 +36,7 @@ int CountStr(string[] massarr) //производим подсчет колич�
     int count = 0;
     for (int i = 0; i < massarr.Length; i++)
     {
-               if (massarr.Length <=3)
+               if (massarr[i].Length <=3)
         {
             count++;
         }
@@ -51,9 +51,9 @@ string[] NewArray(string[] mass)//создаем новый массив раз�
         int index = 0;
         for (int i = 0; i < mass.Length; i++)
         {
-            if (mass.Length <= 3)
+            if (mass[i].Length <= 3)
             {
-               rezultArray[i] = mass[i];
+               rezultArray[index] = mass[i];
                index++;
             }   
       }
