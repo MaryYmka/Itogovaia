@@ -3,46 +3,70 @@
 //При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 //Примеры: [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”] [“1234”, “1567”, “-2”, “computer science”] → [“-2”] [“Russia”, “Denmark”, “Kazan”] → []
 
-string str = GetString();
-int mass = CountStr(str);
 
-string GetString()
-{
-    Console.WriteLine("Введите строку: "); //Метод для принятия строки с консоли
-    string str = Console.ReadLine();
-    return str;
-}
 
-void PrintArray(int[] num) //Вывод массива
+
+string[] FillArray()
 {
-    for (int i = 0; i < num.Length; i++)
+    Console.Write($"Введите длину массива:\t");
+    string[] stringArray = new string[int.Parse(Console.ReadLine()!)];
+    for (int i = 0; i < stringArray.Length; i++)
     {
-        Console.WriteLine(num[i]+ " ");
+        Console.Write($"Введите {i + 1}-й элемент массива:\t");
+        stringArray[i] = Console.ReadLine()!;
     }
+    return stringArray;
 }
 
-int CountStr(string str) //производим подсчет количества элементов в массиве, длина которых меньше либо равна 3 символа;
+
+//Console.Write("Введите количество элементов массива:\t"); // Создание массива с размером заданным пользователем
+//int elementsCount = int.Parse(Console.ReadLine());
+//char [] Array = new char [elementsCount];
+//
+//for (int i = 0; i < Array.Length; i++) //Ввод каждого элемента нашего массива
+//{
+   // Console.Write($"\nВведите элемент массива под индексом {i}:\t");
+    //Array[i] = char.Parse(Console.ReadLine());
+//}
+//Console.WriteLine("\nВывод массива: ");
+
+
+int CountStr(string[] massarr) //производим подсчет количества элементов в массиве, длина которых меньше либо равна 3 символа;
 {
     int count = 0;
-    for (int i = 0; i < str.Length; i++)
+    for (int i = 0; i < massarr.Length; i++)
     {
-               if (str.Length <=3)
+               if (massarr.Length <=3)
         {
             count++;
         }
     }
     return count;
-    }
-string[] NewArray = new string[str.Length]; //создаем новый массив размером, равным количеству подсчитанных элементов;
+}
+
+string[] NewArray(string[] mass)//создаем новый массив размером, равным количеству подсчитанных элементов;
 {
+    int rezultArrayMass = CountStr(mass);
+    string[] rezultArray = new string[rezultArrayMass]; 
         int index = 0;
-        for (int i = 0; i < str.Length; i++)
+        for (int i = 0; i < mass.Length; i++)
         {
-            if (str.Length <= 3)
+            if (mass.Length <= 3)
             {
-               NewArray[i] = str;
+               rezultArray[i] = mass[i];
                index++;
             }   
       }
-       return NewArray;
+   return rezultArray;   
 }
+
+void PrintArray(string[] stringArray) //Вывод массива
+{
+    Console.WriteLine();
+    Console.WriteLine("Итоговый массив:");
+    Console.Write($"[{string.Join(", ", stringArray)}]");
+
+}
+//FillArray(stringArray);
+//PrintArray(stringArray);
+PrintArray(NewArray(FillArray()));
